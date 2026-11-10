@@ -1,0 +1,10 @@
+:root { --bg: #f7f4ee; --fg: #2a2622; --muted: #6b635a; --link: #7a4b1f; }
+@media (prefers-color-scheme: dark) {
+  :root { --bg: #1b1916; --fg: #ece6dc; --muted: #a59c90; --link: #d9a46a; }
+}
+body { background: var(--bg); color: var(--fg); font: 17px/1.6 Georgia, serif;
+  max-width: 40rem; margin: 3rem auto; padding: 0 1rem; }
+h1, h2 { line-height: 1.25; }
+a { color: var(--link); }
+.muted, footer { color: var(--muted); font-size: 0.9rem; }
+footer { margin-top: 3rem; }
